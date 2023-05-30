@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0  ;
+}
+
+table{
+    border: 2px solid black;
+}
+body{
+    font-family: "Montserrat";
+    height: 2000px;
+}
+.text{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: -1 ;
+}
+.text1{
+    position: absolute;
+    top:50%;
+    z-index: 0;
+    font-size:30px;
+    left: 30%;
+    font-weight: bold;
+    color: red;
+}
+.nav{
+    background-color: black;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top:0px;
+}
