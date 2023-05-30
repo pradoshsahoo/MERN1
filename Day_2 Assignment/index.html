@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
   </head>
   <body>
+    <div class="nav">
+      <div class="nav_ele">HOME</div>
+      <div class="nav_ele">EDUCATION</div>
+      <div class="nav_ele">CONTACT</div>
+      <div class="nav_ele">ABOUT</div>
+    </div>
     <div class="first">
       <img
         src="https://img.freepik.com/premium-vector/young-smiling-man-avatar-man-with-brown-beard-mustache-hair-wearing-yellow-sweater-sweatshirt-3d-vector-people-character-illustration-cartoon-minimal-style_365941-860.jpg?size=626&ext=jpg&uid=R53911644&ga=GA1.2.1633332277.1622297919&semt=ais"
@@ -18,7 +28,24 @@
         <span>Pradosh Kumar Sahoo</span>
       </p>
     </div>
-    <h1>EDUCATION</h1>
+    <h1>INTERESTS</h1>
+    <div class="int">
+      <div class="intcard">
+        <img
+          class="card_img"
+          src="https://repository-images.githubusercontent.com/78664391/f7e46780-6bf6-11eb-999f-8212c69d76bc"
+          alt=""
+        />
+        <div class="cardtext">React</div>
+      </div>
+    </div>
+    <div class="but">
+      <button id="add">ADD</button>
+      <button id="remove">REMOVE</button>
+    </div>
+
+    <h1>EDUCATION <button id="more">+</button><button id="less">-</button></h1>
+
     <div class="edu">
       <div class="educard">
         <img
@@ -54,67 +81,8 @@
         Silicon Institute Of Technology
       </div>
     </div>
-    <h1>INTERESTS</h1>
-    <div class="int">
-      <div class="intcard">
-        <img
-          class="card_img"
-          src="https://repository-images.githubusercontent.com/78664391/f7e46780-6bf6-11eb-999f-8212c69d76bc"
-          alt=""
-        />
-        <br />
-        <br />
-        React
-      </div>
-      <div class="intcard">
-        <img
-          class="card_img"
-          src="https://friconix.com/jpg/fi-hnsuxx-nodejs.jpg"
-        />
-        <br />
-        NodeJS
-      </div>
-      <div class="intcard">
-        <img
-          class="card_img"
-          src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
-          alt=""
-        />
-        <br />
-        ExpressJS
-      </div>
-      <div class="intcard">
-        <img
-          class="card_img"
-          src="https://play-lh.googleusercontent.com/xr3hdKMuksZmNfK1OIVkXJZK8EKDepGHS3PoCn4kaEB8boOn-3gqhPxHvExLCu-A3TZs"
-          alt=""
-        />
-        <br />
-        HTML
-      </div>
-      <div class="intcard">
-        <img
-          class="card_img"
-          src="https://img.freepik.com/free-icon/css-3_318-565874.jpg"
-          alt=""
-        />
-        <br />
-        CSS
-      </div>
-    </div>
-    <h1>ABOUT</h1>
-    <div class="contact">
-      <ul>
-        <li>Phone : 7008134123</li>
-        <li>Gmail : pradoshsahoo81@gmail.com</li>
-        <li>Github : github.com/pradoshsahoo</li>
-      </ul>
-    </div>
-    <h1>CONTACT</h1>
-    <div class="contact1">
-      <h4>Write a query</h4>
-      <input type="text" placeholder="Write something" />
-      <button>submit</button>
-    </div>
+    <br />
+    <br />
   </body>
+  <script src="index.js"></script>
 </html>
