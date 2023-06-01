@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "image": "https://mariasindiankitchen.com/wp-content/uploads/2023/01/chicken-biriyani-3.jpg",
+      "title": "Biriyani",
+      "rating": 5,
+      "desc": "Spicy flavourful chicken dum cooked with layers of aromatic basmati rice, caramelised onion."
+    },
+    {
+      "image": "https://static.toiimg.com/thumb/53094926.cms?width=1200&height=900",
+      "title": "Chilli Chicken",
+      "rating": 4,
+      "desc": "Chilli chicken is a sweet, spicy & slightly sour crispy appetizer made with chicken, bell peppers, garlic, chilli sauce & soya sauce."
+    },
+    {
+      "image": "https://www.krumpli.co.uk/wp-content/uploads/2021/09/Paneer-Tikka-Kebabs-04.jpg",
+      "title": "Paneer Tikka",
+      "rating": 5,
+      "desc": "Paneer Tikka is a North Indian appetizer where chunks of paneer are marinated in spiced yogurt and grilled in a Tandoor, a traditional clay oven."
+    },
+    {
+      "image": "https://static.toiimg.com/photo/75490988.cms",
+      "title": "Paneer 65",
+      "rating": 5,
+      "desc": "Paneer 65 is a spicy South Indian appetizer made with Paneer aka Indian cheese, flour, spices and herbs like curry leaves."
+    },
+    {
+      "image": "https://overthefirecooking.com/wp-content/uploads/2022/10/A_IMG_5877-2.jpg",
+      "title": "Chicken Lollipop",
+      "rating": 5,
+      "desc": "Chicken lollipop is a popular Indo-Chinese appetizer where a frenched chicken drumette is marinated"
+    },
+    {
+      "title": "Chilli Gobi",
+      "rating": "4",
+      "image": "https://www.sharmispassions.com/wp-content/uploads/2022/02/ChilliGobi4.jpg",
+      "desc": "A fusion dish, chilli gobi is crispy, spicy, slightly sweet and sour tasting. The cauliflower florets are batter coated, deep fried.",
+      "id": 1685628389692
+    },
+    {
+      "title": "Chowmein",
+      "rating": "3",
+      "image": "https://static.toiimg.com/photo/75455420.cms",
+      "desc": "Chow mein is a Chinese dish made from stir-fried noodles with vegetables and sometimes meat or tofu",
+      "id": 1685633102289
+    }
+  ],
+  "user": [
+    {
+      "email": "pradoshsahoo81@gmail.com",
+      "password": "1234",
+      "id": 1685609211428
+    },
+    {
+      "email": "pk@gmail.com",
+      "password": "123",
+      "id": 1685625490390
+    },
+    {
+      "email": "anu@gmail.com",
+      "password": "123",
+      "id": 1685626371851
+    },
+    {
+      "email": "pradoshsahoo81@gmail.com",
+      "password": "11",
+      "id": 1685626519747
+    }
+  ]
+}
