@@ -34,16 +34,16 @@ const data = [
   },
 ];
 
-const movieBox = document.getElementById("showmovies");
+const foodBox = document.getElementById("showmovies");
 data.map((el) => {
   const div = document.createElement("div");
   const image = document.createElement("img");
   image.src = el.image;
-  const movieTitle = document.createElement("h3");
-  movieTitle.innerText = el.title;
-  const movieRating = document.createElement("p");
-  movieRating.id = "rate";
-  movieRating.innerText = `${el.rating}/5`;
+  const foodTitle = document.createElement("h3");
+  foodTitle.innerText = el.title;
+  const foodRating = document.createElement("p");
+  foodRating.id = "rate";
+  foodRating.innerText = `${el.rating}/5`;
   const p1 = document.createElement("p");
   p1.innerText = el.desc;
   p1.id = "pdesc";
@@ -53,10 +53,12 @@ data.map((el) => {
   button2.innerText = "LESS";
   button1.addEventListener("click", () => {
     p1.style.display = "block";
+    image.style.opacity = 0.3;
   });
   button2.addEventListener("click", () => {
     p1.style.display = "none";
+    image.style.opacity = 1;
   });
-  div.append(image, movieTitle, movieRating, button1, button2, p1);
-  movieBox.append(div);
+  div.append(image, foodTitle, foodRating, button1, button2, p1);
+  foodBox.append(div);
 });
