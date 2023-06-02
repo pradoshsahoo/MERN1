@@ -1,4 +1,17 @@
-// import fetch from "node-fetch";
+const token = JSON.parse(localStorage.getItem("token"));
+const login_or_logout = document.getElementById("login");
+if (token) {
+  login_or_logout.innerText = "LOGOUT";
+} else {
+  login_or_logout.innerText = "LOGIN";
+}
+login_or_logout.addEventListener("click", () => {
+  if (token) {
+    localStorage.removeItem("token");
+    login_or_logout.innerText = "LOGIN";
+    window.location.href = "./login.html";
+  }
+});
 fetch("http://localhost:5501/data", {
   method: "GET",
 })

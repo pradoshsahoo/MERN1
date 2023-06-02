@@ -12,30 +12,33 @@
       <a href="index.html"><div class="nav_ele">HOME</div></a>
       <a href="index.html"><div class="nav_ele">FOOD</div></a>
       <a href="add.html"><div class="nav_ele">ADD</div></a>
-      <a href="login.html"><div class="nav_ele" id="login">LOGIN</div></a>
+      <a href="login.html"><div class="nav_ele">LOGIN</div></a>
     </div>
-    <div class="container1">
-      <div class="create_account1">
-        <h1 id="formtitle">Register</h1>
+    <div class="container">
+      <div class="create_account">
+        <h1 id="formtitle">Login</h1>
         <div id="error"></div>
-        <input class="signup" type="email" placeholder="Email" id="email" />
-        <br />
-        <input class="signup" type="text" placeholder="Name" id="name" /> <br />
-        <input class="signup" type="tel" placeholder="Mobile" id="mobile" />
+        <input class="login" type="email" placeholder="Email" id="email" />
         <br />
         <input
-          class="signup"
+          class="login"
           type="password"
           placeholder="Password"
           id="password"
         />
         <br />
-        <button id="submit">SUBMIT</button>
+        <button id="submit">LOGIN</button>
+        <p>
+          Don't have an account?<a href="signup.html"
+            ><span class="sign">Sign up</span></a
+          >
+        </p>
       </div>
-      <div class="formimage1">
+      <div class="formimage">
+        <!-- <div id="formimgt">Just a few clicks away!</div> -->
         <!-- <img src="Farmers market-amico (2).svg" alt="" /> -->
       </div>
     </div>
   </body>
-  <script src="signup.js"></script>
+  <script src="login.js"></script>
 </html>

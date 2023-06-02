@@ -1,17 +1,4 @@
 const button = document.getElementById("submit");
-const token = JSON.parse(localStorage.getItem("token"));
-const login_or_logout = document.getElementById("login");
-if (token) {
-  login_or_logout.innerText = "LOGOUT";
-} else {
-  login_or_logout.innerText = "LOGIN";
-}
-login_or_logout.addEventListener("click", () => {
-  if (token) {
-    localStorage.removeItem("token");
-    login_or_logout.innerText = "LOGIN";
-  }
-});
 button.addEventListener("click", () => {
   const title = document.getElementById("title").value;
   const image = document.getElementById("image").value;
