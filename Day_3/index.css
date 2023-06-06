@@ -36,15 +36,3 @@ body{
     border-radius: 5px;
     margin-bottom: 30px;
 }
-.nav{
-    display: flex;
-    font-size: 20px;
-    font-weight: 500;
-    position: sticky;
-    color: white;
-    top:0px;
-    background-color: rgb(28, 28, 28);
-}
-.nav_ele{
-    margin: 20px;
-}

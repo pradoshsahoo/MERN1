@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    font-family: "Montserrat";
+}
+.navbar{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    position: sticky;
+    z-index: 10;
+    color: rgb(36, 36, 36);
+    top:0px;
+    background-color: rgb(255, 255, 255);
+}
+.nav_ele{
+    margin: 20px;
+}
